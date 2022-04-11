@@ -1,5 +1,5 @@
 ## Change your name here:
-MYNAME=LeoVALETTE
+MYNAME=RomainSERPOLLET
 
 ## DO NOT change below
 SRC=Restaurant
@@ -8,7 +8,7 @@ MAINCLASS=TestRestaurant
 SRCJAVA=$(wildcard $(SRC)/*.java)
 CLASSFILES = $(SRCJAVA:.java=.class)
 
-all: run
+all:clean run
 
 # Compile
 %.class: %.java
