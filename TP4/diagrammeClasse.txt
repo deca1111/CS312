@@ -1,0 +1,5 @@
+
+@startuml
+abstract abstract
+Class01 <|-- Class02
+@enduml
