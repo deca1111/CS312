@@ -54,7 +54,7 @@ public class Planning {
 
 	
     public static void main (String [] args){
-	Planning p = new Planning();
+	/*Planning p = new Planning();
 		
 	SalleCTD a042 = new SalleCTD(100, "A042");
 	SalleCTD d030 = new SalleCTD(180, "D030");
@@ -120,8 +120,22 @@ public class Planning {
 		
 	System.out.println("Le groupe " + a3tp1.getNom() + " est dans le(s) creneau(x) : "+p.planningGroupe(a3tp1) + " pour un total de " + p.totalHeuresGroupe(a3tp1) + " heures");
 	System.out.println("Le groupe " + a4ir.getNom() + " est dans le(s) creneau(x) : "+p.planningGroupe(a4ir));
-	System.out.println("Le groupe " + a3tp1.getNom() + " est dans le(s) creneau(x) : " + p.planningGroupe(a3tp1));
+	System.out.println("Le groupe " + a3tp1.getNom() + " est dans le(s) creneau(x) : " + p.planningGroupe(a3tp1));*/
 
+    	String c1 = "toto";
+    	String c2 = "toto";
+    	c2 = "titi";
+    	if (c1 == c2) // A ne jamais faire dans un code
+    	    System.out.println("Même objet");
+    	else if (c1.equals(c2))
+    	    System.out.println("Objets équivalent (mais espaces mémoires différents");
+    	 	
+    	String c3 = new String("toto");
+    	String c4 = new String("toto");
+    	if (c3 == c4) // A ne jamais faire dans un code
+    	    System.out.println("Même objet");
+    	else if (c3.equals(c4))
+    	    System.out.println("Objets équivalent (mais espaces mémoires différents");
     }
 }
 
